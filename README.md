@@ -14,8 +14,7 @@ Bu proje, PHP ve MySQL kullanarak geliştirilen bir **futbolcu izleme ve kayıt 
 ## 📺 Tanıtım Videosu
  [YouTube Tanıtım Videosunu İzle](https://youtu.be/V9CZml_Q_xI)
 
- ## 🌐 Canlı Demo
-👉 [Canlı Web Sitesini Görmek İçin Tıklayın](http://95.130.171.20/~st22360859081)  
+
  
 - ## 💡 Detaylar
 - Kullanıcı şifreleri **hashlenmiş şekilde** veritabanına kaydedilir.
