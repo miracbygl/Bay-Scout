@@ -13,6 +13,9 @@ Bu proje, PHP ve MySQL kullanarak geliştirilen bir **futbolcu izleme ve kayıt 
 - ✅ Bootstrap ile responsive ve şık arayüz
 ## 📺 Tanıtım Videosu
  [YouTube Tanıtım Videosunu İzle](https://youtu.be/V9CZml_Q_xI)
+
+ ## 🌐 Canlı Demo
+👉 [Canlı Web Sitesini Görmek İçin Tıklayın](https://ornek-site.com)  
  
 - ## 💡 Detaylar
 - Kullanıcı şifreleri **hashlenmiş şekilde** veritabanına kaydedilir.
