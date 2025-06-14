@@ -11,7 +11,9 @@ Bu proje, PHP ve MySQL kullanarak geliştirilen bir **futbolcu izleme ve kayıt 
 - ✅ Futbolcu bilgilerini düzenleme (Update)
 - ✅ Futbolcu silme (Delete)
 - ✅ Bootstrap ile responsive ve şık arayüz
-
+## 📺 Tanıtım Videosu
+ [YouTube Tanıtım Videosunu İzle](https://youtu.be/V9CZml_Q_xI)
+ 
 - ## 💡 Detaylar
 - Kullanıcı şifreleri **hashlenmiş şekilde** veritabanına kaydedilir.
 - Oturumlar çerez değil, **PHP session** ile yönetilir.
@@ -19,7 +21,7 @@ Bu proje, PHP ve MySQL kullanarak geliştirilen bir **futbolcu izleme ve kayıt 
 
 ### Oturum yönetimi
 ![Logo](img/login.png)
-![Logo](img/kayit.png)
+![Logo](img/kayıt.png)
 ###  Futbolcu bilgilerini düzenleme 
 
 ![Logo](img/duzenle.png)
@@ -32,4 +34,4 @@ Bu proje, PHP ve MySQL kullanarak geliştirilen bir **futbolcu izleme ve kayıt 
 - **PHP (yalın PHP, framework yok)**
 - **MySQL (phpMyAdmin ile kolay kurulum)**
 - **Bootstrap 5 (CSS kütüphanesi)**
-- **JavaScript (isteğe bağlı basit doğrulamalar için)**
+- **JavaScript (basit doğrulamalar için)**
