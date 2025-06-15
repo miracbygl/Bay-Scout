@@ -52,7 +52,7 @@ if ($mysqli->connect_error) {
 }
 
 
-
+---
 ### Soru 4:
 Connection hatasında nasıl debug yaparım?
 
@@ -67,7 +67,7 @@ if ($mysqli->connect_error) {
     die("Bağlantı hatası: " . $mysqli->connect_error);
 }
 
-
+---
 
 ### Soru 5:
 password_hash nasıl yapılır nasıl kullanılır?
@@ -84,7 +84,7 @@ $plainPassword = "kullaniciSifresi123";  // Kullanıcının girdiği düz metin 
 $hashedPassword = password_hash($plainPassword, PASSWORD_DEFAULT);
 
 
-
+---
 
 ### Soru 6:
 PHP de veri ekleme nasıl yapılır?
@@ -126,7 +126,7 @@ if ($mysqli->connect_error) {
     die("Bağlantı hatası: " . $mysqli->connect_error);
 }
 
-
+---
 ### Soru 7:
 Listeleme nasıl yapılır?
 
@@ -145,7 +145,7 @@ if ($mysqli->connect_error) {
     die("Bağlantı hatası: " . $mysqli->connect_error);
 }
 
-
+---
 
 ### Soru 8:
 Güncelleme ve silme (fonksiyonları örnekleri verir misin?)
@@ -178,7 +178,7 @@ function kullaniciGuncelle($mysqli, $id, $yeniUsername, $yeniEmail) {
     $stmt->close();
 }
 
-
+---
 
 ### Soru 9:
 Bunları benim yapabilmem için adım adım öğretici bir şekilde anlatır mısın?
@@ -202,7 +202,7 @@ if ($mysqli->connect_error) {
 }
 ?>
 
-
+---
 ### Soru 10:
 Bootstrap kullanımını öğretir misin?
 
@@ -221,7 +221,7 @@ HTML dosyanızın `<head>` kısmına aşağıdaki satırı ekleyerek Bootstrap�
 ```html
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
+---
 
 ### Soru 11:
 Bootstrap grid ve card nasıl oluşturulur?
@@ -247,7 +247,7 @@ Bootstrap grid sistemi, sayfayı 12 sütuna böler. Bu sütunları kullanarak re
   </div>
 </div>
 
-
+---
 ### Soru 12:
 Listeyi daha şık ve temiz yapmak için örnek UI öner bana.
 
@@ -278,7 +278,7 @@ Bootstrap’ın **List Group** bileşeni, liste öğelerini güzel ve tutarlı g
     <span class="badge bg-success rounded-pill">Online</span>
   </li>
 </ul>
-
+---
 
 ### Soru 13:
 Local’de çalışan uygulamayı sunucuya taşıma nasıl yapılır?
