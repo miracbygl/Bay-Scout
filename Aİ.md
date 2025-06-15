@@ -50,6 +50,9 @@ $mysqli = new mysqli($servername, $username, $password, $dbname);
 if ($mysqli->connect_error) {
     die("Bağlantı hatası: " . $mysqli->connect_error);
 }
+
+
+
 ### Soru 4:
 Connection hatasında nasıl debug yaparım?
 
@@ -64,6 +67,8 @@ if ($mysqli->connect_error) {
     die("Bağlantı hatası: " . $mysqli->connect_error);
 }
 
+
+
 ### Soru 5:
 password_hash nasıl yapılır nasıl kullanılır?
 
@@ -77,6 +82,9 @@ PHP'de kullanıcı şifresini güvenli bir şekilde saklamak için `password_has
 ```php
 $plainPassword = "kullaniciSifresi123";  // Kullanıcının girdiği düz metin şifre
 $hashedPassword = password_hash($plainPassword, PASSWORD_DEFAULT);
+
+
+
 
 ### Soru 6:
 PHP de veri ekleme nasıl yapılır?
@@ -96,8 +104,6 @@ Listeleme nasıl yapılır?
 PHP ve MySQL kullanarak veritabanından kayıtları çekip listelemek için aşağıdaki adımları takip edebilirsin.
 
 ---
-
-
 
 #### 1. Veritabanına bağlan:
 
