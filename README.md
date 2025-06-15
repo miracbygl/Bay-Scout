@@ -16,6 +16,7 @@ Bu proje, PHP ve MySQL kullanarak geliştirilen bir **futbolcu izleme ve kayıt 
 
 ## Veri Tabanı oluşturma
 
+```sql
 -- Veritabanını oluştur
 CREATE DATABASE IF NOT EXISTS futbol_kulubu CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE futbol_kulubu;
@@ -45,6 +46,8 @@ CREATE TABLE IF NOT EXISTS players (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
+
+
 
 - ## 💡 Detaylar
 - Kullanıcı şifreleri **hashlenmiş şekilde** veritabanına kaydedilir.
