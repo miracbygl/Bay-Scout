@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS players (
 
 
 
-- ## 💡 Detaylar
+## 💡 Detaylar
 - Kullanıcı şifreleri **hashlenmiş şekilde** veritabanına kaydedilir.
 - Oturumlar çerez değil, **PHP session** ile yönetilir.
 - Projede **.htaccess** kullanılmamıştır .
